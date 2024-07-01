@@ -26,7 +26,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __(https://github.com/ainaaftrh/OSProject-1)__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+2. How many files and folders are in this repository. ***(1 mark)*** __1 Folder Images__.
 
 
 ## Exploring github codespaces
@@ -58,7 +58,7 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Linux__.
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
 
