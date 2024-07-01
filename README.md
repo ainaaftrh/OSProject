@@ -102,9 +102,8 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 3. Run the command **df** . ***(1 mark)*** <img src="./images/df.png" width="70%">
 
 4. Run the command **du** . ***(1 mark)*** 
-<img src="./images/du1.png" width="70%">
-<img src="./images/du2.png" width="70%">
-<img src="./images/du3.png" width="70%">
+<img src="./images/1DU.png" width="70%">
+
 
 5. Run the command **ls** . ***(1 mark)*** 
 <img src="./images/ls.png" width="70%">
