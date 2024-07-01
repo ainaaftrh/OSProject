@@ -68,10 +68,8 @@ RAM: 16 GB
 Disk: 64 GB
 2-core (4 vCPU) configuration:
 RAM: 8 GB
-Disk: 32 GB
-__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Committing and syncing your work ensures version control, collaboration, backup, CI/CD integration, and accountability, maintaining an organized and efficient development process.
-__.
+Disk: 32 GB__.
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Committing and syncing your work ensures version control, collaboration, backup, CI/CD integration, and accountability, maintaining an organized and efficient development process.__.
 
 ## Exploring the Terminal
 
