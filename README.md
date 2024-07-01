@@ -123,25 +123,32 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 <img src="./images/uname.png" width="70%">
 
 11. What is the available free memory in the system. ***(1 mark)*** 
+
 __5.5Gi__.
 
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** 
+
 __20772240__.
 
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
+
 __Version: 6.5.0-1022-azure
 Hardware: x86_64__.
 
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)***
- __s shows only names of the file while Is -asl shows the detailed information like size of each file in blocks and timestamps.__.
+ 
+__s shows only names of the file while Is -asl shows the detailed information like size of each file in blocks and timestamps.__.
 
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+
 __2560 4K pages__.
 
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 
+
 __2993.007__.
 
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 
+
 __1.0__.
 
 ## Running your own container instance.
@@ -257,10 +264,17 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+
+__Fill answer here__.
+
 2. What port is the apache web server running. ***(1 mark)*** 
+
 __80__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __8080__.
+
+3. What port is open for http protocol on the host machine? ***(1 mark)*** 
+
+__8080__.
 
 ## Create SUB Networks
 
@@ -280,14 +294,20 @@ docker run -itd --net rednet --name c2 busybox sh
 ***Questions:***
 
 1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)***
+
 __Busybox is a lightweight and versatile Unix toolset that provides simplified versions of common UNIX utilities in a single executable. It is often used in Docker containers as a minimalistic base image.
 The --name switch in Docker allows you to specify a custom name for a container when it is created. This name can be used instead of the container's ID to refer to it in Docker commands, making management and identification easier.__.
+
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** 
  <img src="./images/docker network ls.png" width="70%">
 
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Bluenet : 172.18.0.1__.
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** 
 
-4. What is the network address for the running container c1 and c2? ***(1 mark)*** __Address c1 : 172.18.0.2__.
+__Bluenet : 172.18.0.1__.
+
+4. What is the network address for the running container c1 and c2? ***(1 mark)*** 
+
+__Address c1 : 172.18.0.2__.
 
 5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** 
  <img src="./images/docker network.png" width="70%">
