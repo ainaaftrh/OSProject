@@ -64,15 +64,21 @@ __1 Folder Images__.
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** 
+
 __Linux__.
+
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+
 __4-core (8 vCPU) configuration:
 RAM: 16 GB
 Disk: 64 GB
 2-core (4 vCPU) configuration:
 RAM: 8 GB
 Disk: 32 GB__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Committing and syncing your work ensures version control, collaboration, backup, CI/CD integration, and accountability, maintaining an organized and efficient development process.__.
+
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
+
+__Committing and syncing your work ensures version control, collaboration, backup, CI/CD integration, and accountability, maintaining an organized and efficient development process.__.
 
 ## Exploring the Terminal
 
@@ -119,13 +125,15 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 11. What is the available free memory in the system. ***(1 mark)*** 
 __5.5Gi__.
 
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20772240__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** 
+__20772240__.
 
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
 __Version: 6.5.0-1022-azure
 Hardware: x86_64__.
 
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __s shows only names of the file while Is -asl shows the detailed information like size of each file in blocks and timestamps.__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)***
+ __s shows only names of the file while Is -asl shows the detailed information like size of each file in blocks and timestamps.__.
 
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
 __2560 4K pages__.
