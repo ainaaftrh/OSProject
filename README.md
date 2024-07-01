@@ -95,15 +95,21 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** <img src="./images/pwd.png" width="70%">
+1. Run the command **pwd** . ***(1 mark)*** 
 
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** <img src="./images/etc" width="70%">
+<img src="./images/pwd.png" width="70%">
 
-3. Run the command **df** . ***(1 mark)*** <img src="./images/df.png" width="70%">
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** 
+
+<img src="./images/etc" width="70%">
+
+3. Run the command **df** . ***(1 mark)*** 
+
+<img src="./images/df.png" width="70%">
 
 4. Run the command **du** . ***(1 mark)*** 
-<img src="./images/1DU.png" width="70%">
 
+<img src="./images/1DU.png" width="70%">
 
 5. Run the command **ls** . ***(1 mark)*** 
 <img src="./images/ls.png" width="70%">
